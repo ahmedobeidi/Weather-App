@@ -1,5 +1,6 @@
 .weather.card {
   margin-top: 4vh;
+  border-radius: 24px !important;
 }
 
 .weather.card .card-content {
@@ -15,4 +16,28 @@
   font-size: 120px;
   font-family: "Roboto", sans-serif;
   text-shadow: -1px 0 #61dafb, 0 1px #61dafb, 1px 0 #61dafb, 0 -1px #61dafb;
+}
+
+.search-form {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: #120944;
+  border-bottom: none;
+  padding: 10px 10px 0 10px;
+}
+
+.search-input {
+    border: none;
+    color: white;
+    outline: none;
+}
+
+.search-button {
+    height: fit-content;
+    width: fit-content;
+    padding: 10px 20px;
+    background-color: #2196f3;
+    border: none;
+    color: white;
 }
