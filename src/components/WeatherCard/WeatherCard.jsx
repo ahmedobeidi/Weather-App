@@ -6,7 +6,7 @@ import { useState, useEffect } from "react";
 function WeatherCard() {
   const [weather, setWeather] = useState(null);
   const [selectedDay, setSelectedDay] = useState(0); // Default to first day
-  const [searchCity, setSearchCity] = useState("Saint-Etienne"); // initial city
+  const [searchCity, setSearchCity] = useState(""); // initial city
   const [query, setQuery] = useState("Saint-Etienne");
 
   async function getData(city) {
